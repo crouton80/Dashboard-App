@@ -6,8 +6,10 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist:['animate-[spin_1.5s_linear_infinite]'],
   theme: {
     extend: {
+      
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
